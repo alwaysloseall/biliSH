@@ -1,0 +1,7 @@
+#ignore modules that can dynamic builded
+/node_modules/*
+/bower_components/*
+
+#ignore controllers/test.js
+#controllers/test.js
+/test

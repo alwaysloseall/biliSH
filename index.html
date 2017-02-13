@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="biliSH">
+<head>
+	<meta charset="utf-8">
+	<title>bilibili streamer helper</title>
+	<!-- build:css styles/main.css -->
+	<link rel="stylesheet" href="/public/css/common.css">
+	<link rel="stylesheet" href="/view-main/view-main.css">
+	<link rel="stylesheet" href="/view-editor/view-editor.css">
+	<!-- endbuild -->
+	<!-- bower:css -->
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<!-- endbower -->
+</head>
+<body>
+	<div ng-include="'/static/view/header.html'"></div>
+	<!-- 主视图 -->
+	<div id="main" ng-view></div>
+
+	<div ng-include="'/static/view/footer.html'"></div>
+	<!-- bower:js -->
+	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="/bower_components/angular/angular.min.js"></script>
+	<script src="/bower_components/angular-route/angular-route.min.js"></script>
+	<!-- endbower -->
+	<!-- build:js -->
+	<script src="/app.js"></script>
+	<script src="/view-main/view-main.js"></script>
+	<script src="/view-editor/view-editor.js"></script>
+
+	<script src="/view-editor/directives/widget.js"></script>
+	<!-- endbuild -->
+</body>
+</html>

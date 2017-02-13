@@ -1,0 +1,35 @@
+//---重写bootstrap样式
+nav {
+	.container-fluid {
+		padding-left: 10%;
+	}
+	a.navbar-brand {
+		img { width: 115px; position: relative; top: -8px; }
+	}
+	p.goal {
+		margin-left: 150px;
+		margin-top: 12px;
+		margin-bottom: 12px;
+		font-size: 18px;
+	}
+}
+//---重写基础样式
+body {
+	ul { list-style: none; }
+	.clearfix {
+		&:before {
+			content: "";
+			display: table;
+		}
+		&:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	}
+}
+
+//---主界面
+#main {
+	padding: 0 200px;
+}
