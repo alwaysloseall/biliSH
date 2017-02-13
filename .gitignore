@@ -5,3 +5,5 @@
 #ignore controllers/test.js
 #controllers/test.js
 /test
+
+/.vscode/*

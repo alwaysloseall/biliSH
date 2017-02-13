@@ -1,6 +1,6 @@
 var express = require('express');
 // var _ = require('underscore');
-var port = 18080;
+var port = 3000;
 
 var app = express();
 //---静态资源
@@ -17,4 +17,5 @@ app.use(function (req,res,next) {
     	}
     });
 });
+app.use('/images', express.static('./static/images'));
 app.listen(port);
