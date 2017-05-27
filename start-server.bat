@@ -1,3 +1,3 @@
 set NODE_ENV=development
-node server.js
+node app/www
 pause

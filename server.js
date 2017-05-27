@@ -19,3 +19,5 @@ app.use(function (req,res,next) {
 });
 app.use('/images', express.static('./static/images'));
 app.listen(port);
+
+module.exports = app;
